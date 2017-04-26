@@ -1,6 +1,6 @@
 # npmdoc-browserify-ngannotate
 
-#### api documentation for  [browserify-ngannotate (v2.0.0)](https://github.com/omsmith/browserify-ngannotate)  [![npm package](https://img.shields.io/npm/v/npmdoc-browserify-ngannotate.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-browserify-ngannotate) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-browserify-ngannotate.svg)](https://travis-ci.org/npmdoc/node-npmdoc-browserify-ngannotate)
+#### basic api documentation for  [browserify-ngannotate (v2.0.0)](https://github.com/omsmith/browserify-ngannotate)  [![npm package](https://img.shields.io/npm/v/npmdoc-browserify-ngannotate.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-browserify-ngannotate) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-browserify-ngannotate.svg)](https://travis-ci.org/npmdoc/node-npmdoc-browserify-ngannotate)
 
 #### A browserify transform that uses ng-annotate to add dependency injection annotations to your AngularJS source code, preparing it for minification.
 
@@ -79,7 +79,8 @@
         "report-cov": "cat ./coverage/lcov.info | coveralls",
         "test": "istanbul cover -x \"**/spec/**\" _mocha -- -R spec spec"
     },
-    "version": "2.0.0"
+    "version": "2.0.0",
+    "bin": {}
 }
 ```
 
